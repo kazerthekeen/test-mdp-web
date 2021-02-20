@@ -1,0 +1,82 @@
+{
+  "browser_type": "Chrome",
+  "firefox_browser_bin": "/usr/lib64/firefox/firefox",
+  "firefox_executable_path": "/home/kazer/Programs/Libraries/geckodriver-v0.27.0-linux64/geckodriver",
+  "chrome_executable_path": "/home/kazer/Programs/Libraries/chromedriver_linux64/chromedriver",
+
+  "test_user1" : {
+    "firstname": "tester",
+    "lastname": "autotester",
+    "email": "mdpocket-firefoxtest@maildrop.cc",
+    "telephone": "1234567890",
+    "password": "password123",
+    "confirm": "password123",
+    "address-1": "7621 Branch st",
+    "postcode": "27320",
+    "city": "reidsville",
+    "zone": "North Carolina"
+  },
+
+  "test_change_password" : {
+    "email": "mdpocket-firefoxtest@maildrop.cc",
+    "password_1": "password123",
+    "password_2": "765password"
+  },
+
+  "test_add_address" : {
+    "email": "mednfo.persistant.tester@gmail.com",
+    "firstname": "tester",
+    "lastname": "autotester",
+    "password": "password123",
+    "address-1": "12345 tester st",
+    "postcode": "80602",
+    "city": "Thornton",
+    "zone": "Colorado"
+
+  },
+
+  "test_purchase_no_login" : {
+    "login": false,
+    "firstname": "tester",
+    "lastname": "autotester",
+    "telephone": "1234567890",
+    "email": "mednfo.persistant.tester@gmail.com",
+    "address-1": "12345 tester st",
+    "postcode": "80602",
+    "city": "Thornton",
+    "zone": "Colorado",
+    "coupon" :"SIERRA"
+  },
+
+  "test_purchase_login" : {
+    "login": true,
+    "email": "mednfo.persistant.tester@gmail.com",
+    "password": "password123",
+    "coupon" :"SIERRA"
+  },
+
+  "book_url": "https://mdpocket.com/reference-guides/medical-student-reference-guides/mdpocket-mrg-neurology-edition",
+
+  "test_subscribe":{
+    "email": "mednfo.persistant.tester@gmail.com"
+  },
+
+  "mdpocket_product_pages":[
+    "https://mdpocket.com/Acrylic-Memo-Sized-6-9-Clipboard-Green",
+    "https://mdpocket.com/Birch-Letter-Sized-8.5-x-11-Butterfly-Clipboard",
+    "https://mdpocket.com/rapid-id-abg-obstructiverestrictive-lung-disease",
+    "https://mdpocket.com/BMI-Calculator-Wheel-Metric-Edition",
+    "https://mdpocket.com/whitecoat-clipboard-teal-nursing-edition",
+    "https://mdpocket.com/reference-guides/medical-student-reference-guides/mdpocket-mrg-neurology-edition"
+  ],
+
+  "clipboards_product_pages":[
+    "https://clipboards.com/WhiteCoatClipboard-Vertical-Pediatric-Infant-Edition",
+    "https://clipboards.com/Memo-Size-5-x-8-Aluminum-Clipboard-Blackout",
+    "https://clipboards.com/iPad-Mini-WhiteCoatClipboard-Physical-Therapy-Edition"
+  ],
+
+  "clear_test_orders":{
+    "dummy":"?route=sale/order&token=13e85cc9b705c5312460107fa007fa6f&filter_order_status=2&filter_total=0.0"
+  }
+}
